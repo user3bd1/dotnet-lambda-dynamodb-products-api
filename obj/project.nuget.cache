@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "bUadnO5n4XQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\abdal\\OneDrive - AP Hogeschool Antwerpen\\web framework\\api\\productsApi\\productsApi\\productsApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abdal\\.nuget\\packages\\amazon.lambda.apigatewayevents\\3.0.1\\amazon.lambda.apigatewayevents.3.0.1.nupkg.sha512",
+    "C:\\Users\\abdal\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\3.0.0\\amazon.lambda.applicationloadbalancerevents.3.0.0.nupkg.sha512",
+    "C:\\Users\\abdal\\.nuget\\packages\\amazon.lambda.aspnetcoreserver\\10.2.1\\amazon.lambda.aspnetcoreserver.10.2.1.nupkg.sha512",
+    "C:\\Users\\abdal\\.nuget\\packages\\amazon.lambda.aspnetcoreserver.hosting\\2.2.1\\amazon.lambda.aspnetcoreserver.hosting.2.2.1.nupkg.sha512",
+    "C:\\Users\\abdal\\.nuget\\packages\\amazon.lambda.core\\3.3.0\\amazon.lambda.core.3.3.0.nupkg.sha512",
+    "C:\\Users\\abdal\\.nuget\\packages\\amazon.lambda.logging.aspnetcore\\5.0.0\\amazon.lambda.logging.aspnetcore.5.0.0.nupkg.sha512",
+    "C:\\Users\\abdal\\.nuget\\packages\\amazon.lambda.runtimesupport\\2.2.0\\amazon.lambda.runtimesupport.2.2.0.nupkg.sha512",
+    "C:\\Users\\abdal\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\3.0.1\\amazon.lambda.serialization.systemtextjson.3.0.1.nupkg.sha512",
+    "C:\\Users\\abdal\\.nuget\\packages\\awssdk.core\\4.0.102.8\\awssdk.core.4.0.102.8.nupkg.sha512",
+    "C:\\Users\\abdal\\.nuget\\packages\\awssdk.dynamodbv2\\4.0.107\\awssdk.dynamodbv2.4.0.107.nupkg.sha512",
+    "C:\\Users\\abdal\\.nuget\\packages\\awssdk.extensions.netcore.setup\\4.0.102.1\\awssdk.extensions.netcore.setup.4.0.102.1.nupkg.sha512",
+    "C:\\Users\\abdal\\.nuget\\packages\\awssdk.lambda\\4.0.108.2\\awssdk.lambda.4.0.108.2.nupkg.sha512",
+    "C:\\Users\\abdal\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.12\\microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
+    "C:\\Users\\abdal\\.nuget\\packages\\microsoft.openapi\\2.12.0\\microsoft.openapi.2.12.0.nupkg.sha512",
+    "C:\\Users\\abdal\\.nuget\\packages\\snapshotrestore.registry\\1.0.2\\snapshotrestore.registry.1.0.2.nupkg.sha512",
+    "C:\\Users\\abdal\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\10.0.12\\microsoft.netcore.app.host.linux-x64.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
