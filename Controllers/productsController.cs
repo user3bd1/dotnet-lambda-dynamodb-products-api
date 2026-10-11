@@ -3,7 +3,7 @@ using Amazon.Lambda.Model;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
 using productsApi.Models;
-using Amazon.DynamoDBv2.Model;
+
 
 
 namespace productsApi.Controllers
@@ -72,12 +72,15 @@ namespace productsApi.Controllers
             var response = await _lambda.InvokeAsync(request);
             if (!string.IsNullOrEmpty(response.FunctionError)) return StatusCode(500, $"Lambda Error: {response.FunctionError}");
 
-            using var reader = new StreamReader(response.Payload);
-            var json = await reader.ReadToEndAsync();
+            //  using var reader = new StreamReader(response.Payload);
+            // var json = await reader.ReadToEndAsync();
 
-           
-            var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
-            var product = JsonSerializer.Deserialize<Products>(json, options);
+
+            //var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+            //var product = JsonSerializer.Deserialize<Products>(json, options);
+
+            var json = System.Text.Encoding.UTF8.GetString(response.Payload.ToArray());
+            var product = JsonSerializer.Deserialize<Products>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive=true });
 
             if (product is null) return NotFound();
 
