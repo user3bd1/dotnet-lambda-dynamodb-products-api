@@ -1,0 +1,293 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "productsApi/1.0.0": {
+        "dependencies": {
+          "AWSSDK.DynamoDBv2": "4.0.107",
+          "AWSSDK.Extensions.NETCore.Setup": "4.0.102.1",
+          "AWSSDK.Lambda": "4.0.108.2",
+          "Amazon.Lambda.APIGatewayEvents": "3.0.1",
+          "Amazon.Lambda.AspNetCoreServer.Hosting": "2.2.1",
+          "Amazon.Lambda.Core": "3.3.0",
+          "Amazon.Lambda.Serialization.SystemTextJson": "3.0.1",
+          "Microsoft.AspNetCore.OpenApi": "10.0.12"
+        },
+        "runtime": {
+          "productsApi.dll": {}
+        }
+      },
+      "Amazon.Lambda.APIGatewayEvents/3.0.1": {
+        "runtime": {
+          "lib/net10.0/Amazon.Lambda.APIGatewayEvents.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.ApplicationLoadBalancerEvents/3.0.0": {
+        "runtime": {
+          "lib/net10.0/Amazon.Lambda.ApplicationLoadBalancerEvents.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.AspNetCoreServer/10.2.1": {
+        "dependencies": {
+          "Amazon.Lambda.APIGatewayEvents": "3.0.1",
+          "Amazon.Lambda.ApplicationLoadBalancerEvents": "3.0.0",
+          "Amazon.Lambda.Core": "3.3.0",
+          "Amazon.Lambda.Logging.AspNetCore": "5.0.0",
+          "Amazon.Lambda.Serialization.SystemTextJson": "3.0.1"
+        },
+        "runtime": {
+          "lib/net10.0/Amazon.Lambda.AspNetCoreServer.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.4.0"
+          }
+        }
+      },
+      "Amazon.Lambda.AspNetCoreServer.Hosting/2.2.1": {
+        "dependencies": {
+          "Amazon.Lambda.APIGatewayEvents": "3.0.1",
+          "Amazon.Lambda.AspNetCoreServer": "10.2.1",
+          "Amazon.Lambda.Core": "3.3.0",
+          "Amazon.Lambda.RuntimeSupport": "2.2.0"
+        },
+        "runtime": {
+          "lib/net10.0/Amazon.Lambda.AspNetCoreServer.Hosting.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Core/3.3.0": {
+        "runtime": {
+          "lib/net10.0/Amazon.Lambda.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Logging.AspNetCore/5.0.0": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "3.3.0"
+        },
+        "runtime": {
+          "lib/net10.0/Amazon.Lambda.Logging.AspNetCore.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.RuntimeSupport/2.2.0": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "3.3.0",
+          "SnapshotRestore.Registry": "1.0.2"
+        },
+        "runtime": {
+          "lib/net10.0/Amazon.Lambda.RuntimeSupport.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/3.0.1": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "3.3.0"
+        },
+        "runtime": {
+          "lib/net10.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "AWSSDK.Core/4.0.102.8": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.102.8"
+          }
+        }
+      },
+      "AWSSDK.DynamoDBv2/4.0.107": {
+        "dependencies": {
+          "AWSSDK.Core": "4.0.102.8"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.DynamoDBv2.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.107.0"
+          }
+        }
+      },
+      "AWSSDK.Extensions.NETCore.Setup/4.0.102.1": {
+        "dependencies": {
+          "AWSSDK.Core": "4.0.102.8"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.Extensions.NETCore.Setup.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.102.1"
+          }
+        }
+      },
+      "AWSSDK.Lambda/4.0.108.2": {
+        "dependencies": {
+          "AWSSDK.Core": "4.0.102.8"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.Lambda.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.108.2"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.OpenApi/10.0.12": {
+        "dependencies": {
+          "Microsoft.OpenApi": "2.12.0"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "assemblyVersion": "10.0.12.0",
+            "fileVersion": "10.0.1226.42308"
+          }
+        }
+      },
+      "Microsoft.OpenApi/2.12.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "2.12.0.0",
+            "fileVersion": "2.12.0.0"
+          }
+        }
+      },
+      "SnapshotRestore.Registry/1.0.2": {
+        "runtime": {
+          "lib/net10.0/SnapshotRestore.Registry.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "productsApi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Amazon.Lambda.APIGatewayEvents/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+gTGEtrcoCBRtCgcqEl3AlFrYrQY4pFreL22KkmpvXaNX1Lwlrbgk/crEcfuD3Q0wO2AspsJ3xMMj7pJxDYTKA==",
+      "path": "amazon.lambda.apigatewayevents/3.0.1",
+      "hashPath": "amazon.lambda.apigatewayevents.3.0.1.nupkg.sha512"
+    },
+    "Amazon.Lambda.ApplicationLoadBalancerEvents/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lUiZhNxherASNgbZysdFEj37VlyO7BH2z4iOwFpRtfLGq/v/dkVqt3rBAVvrxfPBRGi6SbSb/bHTV4bhPo5tSg==",
+      "path": "amazon.lambda.applicationloadbalancerevents/3.0.0",
+      "hashPath": "amazon.lambda.applicationloadbalancerevents.3.0.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.AspNetCoreServer/10.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yql4ujM7Q2v6GfrBFbMB1SMaDu3wSHsfS/WfNr1OzUfVKseUKO+swo6Y/v1x/gQpJDKAzrP/pmwC/NuI9oPYjg==",
+      "path": "amazon.lambda.aspnetcoreserver/10.2.1",
+      "hashPath": "amazon.lambda.aspnetcoreserver.10.2.1.nupkg.sha512"
+    },
+    "Amazon.Lambda.AspNetCoreServer.Hosting/2.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MldjW5hJB9M9z8a3qi+Q/VeMRLhVPWv4qQ1lJZ3zPPRfu0MfpaWekfrtI8ox9olJmX8J+8PBH5ixGFLX5vnO8g==",
+      "path": "amazon.lambda.aspnetcoreserver.hosting/2.2.1",
+      "hashPath": "amazon.lambda.aspnetcoreserver.hosting.2.2.1.nupkg.sha512"
+    },
+    "Amazon.Lambda.Core/3.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CZKlX8ZDMi6aKPo5lPAjmsJFDXNJHX00aiiYeRQOEszP8cjx6qklBvTPj4qpr4dlp3YYQjmB87CqAiWV7vk2fA==",
+      "path": "amazon.lambda.core/3.3.0",
+      "hashPath": "amazon.lambda.core.3.3.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.Logging.AspNetCore/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vfqHBHPvsIvaAGeBnFSRSCThHoqXWqy7S/R6/Aldn4/FmHEp872D0WcJgFac/D0h0GnbHqyfFkjmBEpi85vOog==",
+      "path": "amazon.lambda.logging.aspnetcore/5.0.0",
+      "hashPath": "amazon.lambda.logging.aspnetcore.5.0.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.RuntimeSupport/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S2ey3Wwb1JBJzYOa1jHDfbATziS7BVDRd9ZzBBTIRf8+2KsAujlEUwbCAZ5WpfGl0poiTVdvD4S9ttrCX3fmdg==",
+      "path": "amazon.lambda.runtimesupport/2.2.0",
+      "hashPath": "amazon.lambda.runtimesupport.2.2.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.Serialization.SystemTextJson/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QsHygaMyxQdgh5NPs5GGyBjK6mqQr5nv8rpqlrWC5+e1k7sVx+2xwDHv493S5IMw461S/PyHfjkUDjIQU5ArSA==",
+      "path": "amazon.lambda.serialization.systemtextjson/3.0.1",
+      "hashPath": "amazon.lambda.serialization.systemtextjson.3.0.1.nupkg.sha512"
+    },
+    "AWSSDK.Core/4.0.102.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-90B9Skhl+ORbtWNXrrmGdGhGvAfZiPmZafRYrB/xHelZjePIwPvXioqz9UiiF1vo21eDLzTnXh5EC4RjbNWsFQ==",
+      "path": "awssdk.core/4.0.102.8",
+      "hashPath": "awssdk.core.4.0.102.8.nupkg.sha512"
+    },
+    "AWSSDK.DynamoDBv2/4.0.107": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v03bIsEvQ4onYDKjeI7krAk9wmNC4FS2NkoeRRg4KeXOBwurg8NY7MgSCOTy3KDNmEkgmOnggwn4Dhh23xrtYw==",
+      "path": "awssdk.dynamodbv2/4.0.107",
+      "hashPath": "awssdk.dynamodbv2.4.0.107.nupkg.sha512"
+    },
+    "AWSSDK.Extensions.NETCore.Setup/4.0.102.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VVr9WPv7+mmqc3yCiYI4txANzsr6nPejWTSOBRfbYPRsj1s2EY0TUxuhp0JCnK5j6wglQ3s2H+RfmYir3HHfjw==",
+      "path": "awssdk.extensions.netcore.setup/4.0.102.1",
+      "hashPath": "awssdk.extensions.netcore.setup.4.0.102.1.nupkg.sha512"
+    },
+    "AWSSDK.Lambda/4.0.108.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b/l4MmOI145W1AiJR97//516EzsZkBGP3uAWH3Hml6UNQn5k5R1C9Mt/wY1j/VjefONWiCOzl+Bgfk1ECJfQcQ==",
+      "path": "awssdk.lambda/4.0.108.2",
+      "hashPath": "awssdk.lambda.4.0.108.2.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.OpenApi/10.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7RnQ/UKn+kK3JDLmTpW+vVqNErWthGPAVAy1aIiBzv4ucQ6g9NFvOJUuT0PHcpvcJxGVxctMxj6t+NESWMrgHQ==",
+      "path": "microsoft.aspnetcore.openapi/10.0.12",
+      "hashPath": "microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512"
+    },
+    "Microsoft.OpenApi/2.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0xB/be+f6qYOhvQPUrVsLrau+fkowYv6gt9RIkajMhwT7sZnqtcA797yW3bS5kgSje+AQW4xZgyLnW641YFioQ==",
+      "path": "microsoft.openapi/2.12.0",
+      "hashPath": "microsoft.openapi.2.12.0.nupkg.sha512"
+    },
+    "SnapshotRestore.Registry/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-clcAZGAb8sbtIuynOPiZkpHLdSb3RGxHJjSPyecgRh55fFY0KynqA7GEtrVL/sAUgO9jvC0IMhPXBRcJuFWrAA==",
+      "path": "snapshotrestore.registry/1.0.2",
+      "hashPath": "snapshotrestore.registry.1.0.2.nupkg.sha512"
+    }
+  }
+}

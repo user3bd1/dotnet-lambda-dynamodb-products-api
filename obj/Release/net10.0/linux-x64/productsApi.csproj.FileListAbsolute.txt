@@ -1,11 +1,3 @@
-C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\obj\Release\net10.0\linux-x64\productsApi.csproj.AssemblyReference.cache
-C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\obj\Release\net10.0\linux-x64\rpswa.dswa.cache.json
-C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\obj\Release\net10.0\linux-x64\productsApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\obj\Release\net10.0\linux-x64\productsApi.AssemblyInfoInputs.cache
-C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\obj\Release\net10.0\linux-x64\productsApi.AssemblyInfo.cs
-C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\obj\Release\net10.0\linux-x64\productsApi.csproj.CoreCompileInputs.cache
-C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\obj\Release\net10.0\linux-x64\productsApi.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\obj\Release\net10.0\linux-x64\productsApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\bin\Release\net10.0\linux-x64\appsettings.Development.json
 C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\bin\Release\net10.0\linux-x64\appsettings.json
 C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\bin\Release\net10.0\linux-x64\MyApi\aws-lambda-tools-defaults.json
@@ -30,6 +22,15 @@ C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\
 C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\bin\Release\net10.0\linux-x64\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\bin\Release\net10.0\linux-x64\Microsoft.OpenApi.dll
 C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\bin\Release\net10.0\linux-x64\SnapshotRestore.Registry.dll
+C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\obj\Release\net10.0\linux-x64\productsApi.csproj.AssemblyReference.cache
+C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\obj\Release\net10.0\linux-x64\rpswa.dswa.cache.json
+C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\obj\Release\net10.0\linux-x64\productsApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\obj\Release\net10.0\linux-x64\productsApi.AssemblyInfoInputs.cache
+C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\obj\Release\net10.0\linux-x64\productsApi.AssemblyInfo.cs
+C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\obj\Release\net10.0\linux-x64\productsApi.csproj.CoreCompileInputs.cache
+C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\obj\Release\net10.0\linux-x64\productsApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\obj\Release\net10.0\linux-x64\productsApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\obj\Release\net10.0\linux-x64\productsApi.sourcelink.json
 C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\obj\Release\net10.0\linux-x64\rjimswa.dswa.cache.json
 C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\obj\Release\net10.0\linux-x64\rjsmrazor.dswa.cache.json
 C:\Users\abdal\OneDrive - AP Hogeschool Antwerpen\web framework\api\productsApi\productsApi\obj\Release\net10.0\linux-x64\rjsmcshtml.dswa.cache.json

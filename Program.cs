@@ -16,6 +16,7 @@ namespace productsApi
             builder.Services.AddDefaultAWSOptions(builder.Configuration.GetAWSOptions());
             builder.Services.AddAWSService<IAmazonLambda>();
             builder.Services.AddAWSLambdaHosting(LambdaEventSource.RestApi);
+            builder.Services.AddCors(o => o.AddDefaultPolicy(p => p.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
 
 
             builder.Services.AddControllers();
@@ -33,6 +34,7 @@ namespace productsApi
             }
 
             app.UseHttpsRedirection();
+            app.UseCors();
 
             app.UseAuthorization();
 
