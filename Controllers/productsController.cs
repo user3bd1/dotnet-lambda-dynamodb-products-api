@@ -22,7 +22,7 @@ namespace productsApi.Controllers
 
 
         [HttpGet()]
-        public async Task<IActionResult> GetProducts([FromQuery] int limit= 100)
+        public async Task<IActionResult> GetProducts([FromQuery] int? limit= null)
         {
             var requestData = new InvokeRequest
             {
