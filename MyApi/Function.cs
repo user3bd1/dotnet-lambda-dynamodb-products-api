@@ -33,11 +33,24 @@ public class Function
             return await GetProduct(input.GetInt32(), context);
         }
 
-        return await GetProducts(context);
+        int limit = 100;
+
+        if (input.ValueKind == JsonValueKind.Object &&
+        input.TryGetProperty("limit", out var limitElement) &&
+        limitElement.ValueKind == JsonValueKind.Number)
+        {
+            if(limitElement.GetInt32() != 0) limit = limitElement.GetInt32();
+
+        }
+
+        var products = await GetProducts(context, limit);
+
+        return products;
+
     }
 
     public async Task<List<Products>> GetProducts(
-        ILambdaContext context)
+        ILambdaContext context, int limit = 100)
     {
         try
         {
@@ -45,8 +58,12 @@ public class Function
 
             var request = new ScanRequest
             {
-                TableName = tableName
+                TableName = tableName,
+                Limit=limit
+                
             };
+
+           
 
             var response = await _dynamoDb.ScanAsync(request);
 
@@ -106,6 +123,8 @@ public class Function
                     }).ToList()
                 });
             }
+
+            
 
             return products;
         }

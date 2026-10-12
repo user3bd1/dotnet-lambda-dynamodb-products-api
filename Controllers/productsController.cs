@@ -22,13 +22,13 @@ namespace productsApi.Controllers
 
 
         [HttpGet()]
-        public async Task<IActionResult> GetProducts()
+        public async Task<IActionResult> GetProducts([FromQuery] int limit= 100)
         {
             var requestData = new InvokeRequest
             {
                 FunctionName = functionName,
                 InvocationType = InvocationType.RequestResponse,
-                Payload = "{}"
+                Payload = JsonSerializer.Serialize(new { limit = limit })
             };
 
             var response = await _lambda.InvokeAsync(requestData);
@@ -71,13 +71,6 @@ namespace productsApi.Controllers
 
             var response = await _lambda.InvokeAsync(request);
             if (!string.IsNullOrEmpty(response.FunctionError)) return StatusCode(500, $"Lambda Error: {response.FunctionError}");
-
-            //  using var reader = new StreamReader(response.Payload);
-            // var json = await reader.ReadToEndAsync();
-
-
-            //var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
-            //var product = JsonSerializer.Deserialize<Products>(json, options);
 
             var json = System.Text.Encoding.UTF8.GetString(response.Payload.ToArray());
             var product = JsonSerializer.Deserialize<Products>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive=true });

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UDcPvAl5Gq4=",
+  "dgSpecHash": "a26sqXejPsY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\abdal\\OneDrive - AP Hogeschool Antwerpen\\web framework\\api\\productsApi\\productsApi\\productsApi.csproj",
+  "projectFilePath": "C:\\Users\\abdal\\OneDrive - AP Hogeschool Antwerpen\\web framework\\Shopping App\\productsApi\\productsApi\\productsApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abdal\\.nuget\\packages\\amazon.lambda.apigatewayevents\\3.0.1\\amazon.lambda.apigatewayevents.3.0.1.nupkg.sha512",
     "C:\\Users\\abdal\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\3.0.0\\amazon.lambda.applicationloadbalancerevents.3.0.0.nupkg.sha512",

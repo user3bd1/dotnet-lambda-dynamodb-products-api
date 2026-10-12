@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abdal\\OneDrive - AP Hogeschool Antwerpen\\web framework\\api\\productsApi\\productsApi\\productsApi.csproj": {}
+    "C:\\Users\\abdal\\OneDrive - AP Hogeschool Antwerpen\\web framework\\Shopping App\\productsApi\\productsApi\\productsApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abdal\\OneDrive - AP Hogeschool Antwerpen\\web framework\\api\\productsApi\\productsApi\\productsApi.csproj": {
+    "C:\\Users\\abdal\\OneDrive - AP Hogeschool Antwerpen\\web framework\\Shopping App\\productsApi\\productsApi\\productsApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abdal\\OneDrive - AP Hogeschool Antwerpen\\web framework\\api\\productsApi\\productsApi\\productsApi.csproj",
+        "projectUniqueName": "C:\\Users\\abdal\\OneDrive - AP Hogeschool Antwerpen\\web framework\\Shopping App\\productsApi\\productsApi\\productsApi.csproj",
         "projectName": "productsApi",
-        "projectPath": "C:\\Users\\abdal\\OneDrive - AP Hogeschool Antwerpen\\web framework\\api\\productsApi\\productsApi\\productsApi.csproj",
+        "projectPath": "C:\\Users\\abdal\\OneDrive - AP Hogeschool Antwerpen\\web framework\\Shopping App\\productsApi\\productsApi\\productsApi.csproj",
         "packagesPath": "C:\\Users\\abdal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abdal\\OneDrive - AP Hogeschool Antwerpen\\web framework\\api\\productsApi\\productsApi\\obj\\",
+        "outputPath": "C:\\Users\\abdal\\OneDrive - AP Hogeschool Antwerpen\\web framework\\Shopping App\\productsApi\\productsApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
